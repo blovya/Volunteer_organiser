@@ -23,13 +23,14 @@
 
 </head>
 <body>
-    <form name="regform" method="post" action="index.php" onsubmit="return validateForm()">
+    <form name="regform" method="post" action="register_processing.php" onsubmit="return validateForm()">
         <h3> Registration Page </h3>
-        <label><span>Email Address:<sup>*</sup></span><input type="email" name="username" maxlength="30" placeholder="Username..." required /></label><br>
+        <label><span>Email Address:<sup>*</sup></span><input type="email" name="email" maxlength="30" placeholder="Username..." required /></label><br>
         <label><span>Password:<sup>*</sup></span><input type="password" name="password" maxlength="30" minlength="5" placeholder="Password..." required /></label><br>
         <label><span>Confirm Password:<sup>*</sup></span><input type="password" name="confirmpass" maxlength="30" placeholder="Confirm Password..." required/></label><br>
         <label><span>First Name:<sup>*</sup></span><input type="text" name="first_name" maxlength="30" placeholder="First Name..." required/></label><br>
         <label><span>Last Name:<sup>*</sup></span><input type="text" name="last_name" maxlength="30" placeholder="Last Name..." required/></label><br>
+        <label><span>Date of Birth:<sup>*</sup></span><input type="date" name="dob" required/></label><br>
         <label><span>Phone Number:<sup>*</sup></span><input type="phone number" name="phone_number" maxlength="25" placeholder="Phone Number..." required/></label><br>
         <label><span>Postcode:<sup>*</sup></span><input type="postcode" name="postcode" maxlength="4" minlength="4" placeholder="Postcode..." required/></label><br>
         <input type="submit" name="register" value="Register"/>
