@@ -1,9 +1,3 @@
-Name: Lovya Bajaj
-Student Number: 10565489
-
-Name: Durba Saha
-Student Number: 10572866
-
 Login Details:
 
 Volunteer Login
