@@ -1,0 +1,15 @@
+* {
+	font-family: Arial
+}
+
+span {
+    float: left;
+    width: 150px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+sup {
+    color: #FF0000;
+}
